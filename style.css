@@ -81,13 +81,16 @@ img {
     border: 1px solid #BFC2C7;
     border-radius: 160px;
     background: #f5f5f5;
+
 }
 
 .first {
     display: flex;
     background: #ffffff;
-    width: 100%;
+    width: 97%;
+    margin: 5px;
     justify-content: space-between;
+    
 }
 
 li {
@@ -112,7 +115,8 @@ li {
 .nav-icon {
     flex: 1 0 1;
     justify-content: flex-end;
-    padding-left: 5px;
+    margin-left: 5px;
+
 
 }
 
@@ -124,12 +128,12 @@ li {
 
 #box {
     display: flex;
-    max-width: 240px;
+    width: 50%;
     margin-top: 20px;
 }
 
 #section {
-    flex: 1 0 200px;
+    flex: 1 0 25%;
     border: 1px solid #E5E5E5;
     border-radius: 10px;
     padding: 0;
@@ -137,7 +141,7 @@ li {
 }
 
 #next-section {
-    flex: 1 0 200px;
+    flex: 1 0 25%;
     background: #E5E5E5;
     margin: 5px;
     margin-top: 0px;
@@ -199,7 +203,7 @@ main button {
     display: flex;
     background: #ffffff;
     margin-left: 0;
-    width: 100%;
+    width: 97%;
     justify-content: space-between;
     margin-top: 5px;
 }
@@ -255,9 +259,9 @@ footer {
     font-size: 10px;
     color: #2C665D;
     background-color: #ffffff;
-    width: 760px;
+    width: 90%;
     border: 1px solid #f5f5f5;
-    margin: 0 60px 10px 10px;
+    margin: 0 5%;
     padding: 15px 0;
 }
 @media screen and (max-width:760px){
